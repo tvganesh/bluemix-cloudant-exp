@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  ul
+      li 
+        a(href='/booklist') Display the list of books
+      li
+        a(href='/newbook') Add a book
+      li
+        a(href='/changebook') Update a book
+      li
+        a(href='/rembook') Delete a book
+  
